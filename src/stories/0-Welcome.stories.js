@@ -1,13 +1,13 @@
-import React from 'react';
-import { linkTo } from '@storybook/addon-links';
-import { Welcome } from '@storybook/react/demo';
+import React from "react";
+//import { linkTo } from "@storybook/addon-links";
+//import { Welcome } from "@storybook/react/demo";
 
 export default {
-  title: 'Welcome',
+  title: "Welcome"
 };
 
-export const toStorybook = () => <Welcome showApp={linkTo('Button')} />;
+export const KRComponentLibrary = () => <p>Keith Ratner's Component Library</p>;
 
-toStorybook.story = {
-  name: 'to Storybook',
+KRComponentLibrary.story = {
+  name: "to KR Components"
 };
